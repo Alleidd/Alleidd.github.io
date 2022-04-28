@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroArts</title>
+
+    <!-- FONT -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <header id="home">
+
+      <!-- NAVIGATION -->
+      <nav id="nav">
+        <div class="nav-center">
+
+          <!-- NAV HEADER -->
+           <div class="nav-header">
+            <img src="./logo.svg" alt="logo" class="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+           </button>
+           </div>
+
+           <!-- LINKS -->
+           <div class="links-container">
+             <ul class="links">
+               <li>
+                 <a href="#download" class="scroll-link">Download</a>
+               </li>
+               <li>
+                 <a href="#countdown" class="scroll-link">Countdown</a>
+               </li>
+             </ul>
+           </div>
+
+        </div>
+      </nav>
+
+      <!-- BANNER -->
+      <div class="banner">
+        <div class="container">
+          <h1> NeuroArts </h1>
+          <p> Welcome to NeuroArts predownload page! Glad to see you!</p>
+          <a href="#download" class="scroll-link btn btn-white"> Dowload Now!</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- DOWNLOAD -->
+    <section id="download" class="section">
+
+      <div class="title">
+        <br>
+        <h2> Download <span> Main Game </span> </h2>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./download.jpeg" alt="" />
+        </article>
+        <article class="about">
+
+          <div class="btn-container">
+            <button class="tab-btn" data-id="history"> WINDOWS </button>
+            <button class="tab-btn active" data-id="vision"> ANDROID </button>
+            <button class="tab-btn" data-id="goals"> iOS </button>
+          </div>
+          <div class="about-content">
+
+            <div class="content" id="history">
+              <center> <h4> WINDOWS </h4>
+              <p>
+                Fully integrated WINDOWS 10 support! <br>
+                Try it now fully free and without ads.
+                <br>
+                <br>
+                <h3>
+                <div class="btn1">
+                NeuroArts.exe
+                </div>
+              </h3>
+              </p>
+            </center>
+            </div>
+
+            <div class="content active" id="vision">
+              <center>  <h4> ANDROID </h4>
+              <p>
+                Fully integrated ANDROID 8.0+ support! <br>
+                Try it now fully free and without ads.
+                <br>
+                <br>
+                <h3>
+                <div class="btn1">
+                NeuroArts.apk
+                </div>
+                </h3>
+              </p>
+            </center>
+            </div>
+
+            <div class="content" id="goals">
+              <center> <h4> iOS </h4>
+              <p>
+                iOS version is still in development <br>
+                <h3>
+                <div class="btn1">
+                Temp. Unavaible
+                </div>
+                </h3>
+                Sorry for the Inconvenience
+              </p>
+            </center>
+            </div>
+
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section id="countdown" class="section">
+
+      <div class="title">
+        <br>
+        <h2> Live <span> Countdown </span> </h2>
+        <br>
+        <img src="./countdown.jpeg" alt="" />
+      </div>
+
+      <div class="deadline">
+
+        <!-- DAY -->
+        <div class="deadline-format">
+          <div>
+            <h4 class="days">34</h4>
+            <span>days</span>
+          </div>
+        </div>
+
+        <!-- HRS -->
+        <div class="deadline-format">
+          <div>
+            <h4 class="hours">34</h4>
+            <span>hours</span>
+          </div>
+        </div>
+
+        <!-- MIN -->
+        <div class="deadline-format">
+          <div>
+            <h4 class="minutes">34</h4>
+            <span>mins</span>
+          </div>
+        </div>
+
+        <!-- SEC -->
+        <div class="deadline-format">
+          <div>
+            <h4 class="seconds">34</h4>
+            <span>secs</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section">
+      <p> copyright &copy; NeuroArts Inc <span id="date"></span>
+          – All rights reserved
+          <br>
+          <i> Making Gacha Games since forever! </i>
+      </p>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
